@@ -1,0 +1,11 @@
+Package: PCM
+Type: Package
+Title: Cloud and snow discrimination on AVHRR imagery
+Version: 1.0
+Date: 2013-03-19
+Author:Jan Musial
+Maintainer: Jan Musial <jmusial84@gmail.com>
+Description: Text
+Depends:R (>= 2.14.0),rgdal,FNN,raster,biOps,ICS,bigmemory,fields
+Imports:rgdal,FNN,raster,biOps,ICS,bigmemory,fields
+License:GPL-2

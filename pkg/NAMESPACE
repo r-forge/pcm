@@ -1,0 +1,5 @@
+import(rgdal,biOps,ICS,bigmemory)
+importFrom(fields,interp.surface)
+importFrom(FNN,get.knnx)
+importFrom(raster,writeRaster,raster)
+export(PCM,dem_prepare,skt_prepare,lc_prepare,shoreline_kernel)
