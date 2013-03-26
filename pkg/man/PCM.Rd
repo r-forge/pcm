@@ -164,6 +164,7 @@ If you find one of the provided functions of this package useful please cite!
 \code{\link{lc_prepare}},\code{\link{dem_prepare}},\code{\link{skt_prepare}}
 }
 \examples{
+\dontrun{
 ##NOAA17 with 3a channel
 res<-PCM(avhrr.file=system.file("examples/noaa17_20080101_1000_28693.eu1km.avhrr.tif", package = "PCM"),
          angles.file=system.file("examples/noaa17_20080101_1000_28693.eu1km.sunsatangles.tif", package = "PCM"),
@@ -227,7 +228,7 @@ res<-PCM(avhrr.file=system.file("examples/noaa18_20080101_1216_13483.eu1km.avhrr
          hour=12,
          minute=16
 )
-
+}
 }
 \keyword{PCM}
 \keyword{AVHRR}
